@@ -157,3 +157,75 @@ VALUES
 ('Amit', 'Vijay', 'Patel', '2015-03-15', 10, 'ITAdmin', 'amit.patel@hospital.com', '9876543211', 'Mumbai, Maharashtra'),
 ('Sneha', 'Deepak', 'Rao', '2018-07-22', 7, 'ComplianceOfficer', 'sneha.rao@hospital.com', '9123456781', 'Pune, Maharashtra');
 
+ApplicationAdmin Database Content
+
+AdminId
+FirstName
+MiddleName
+LastName
+HireDate
+Experience
+Role
+Email
+PhoneNumber
+OfficeAddress 
+CREATE TABLE ApplicationAdmin (
+AdminId INT AUTO_INCREMENT PRIMARY KEY,
+FirstName VARCHAR(50),
+MiddleName VARCHAR(50),
+LastName VARCHAR(50),
+HireDate DATE,
+Experience INT,
+Role VARCHAR(50),
+Email VARCHAR(100),
+PhoneNumber VARCHAR(15),
+OfficeAddress VARCHAR(255)
+);
+INSERT INTO ApplicationAdmin
+(FirstName, MiddleName, LastName, HireDate, Experience, Role, Email, PhoneNumber, OfficeAddress)
+VALUES
+('Rajesh', 'Mohan', 'Singh', '2012-01-10', 13, 'SuperAdmin', 'rajesh.singh@healthapp.com', '9876543201', 'Delhi, India'),
+('Priya', 'Suresh', 'Menon', '2016-09-05', 9, 'SystemAdmin', 'priya.menon@healthapp.com', '9123456791', 'Bengaluru, Karnataka');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
