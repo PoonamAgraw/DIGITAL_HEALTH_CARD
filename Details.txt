@@ -17,4 +17,9 @@ Objective : To design and develop a centralized digital system for storing patie
             To reduce manual paperwork and eliminate data redundancy in healthcare records.
             To improve coordination and communication between patients, doctors, and laboratories.
             To ensure data accuracy, security, and privacy of healthcare information.
-            To make the healthcare system more efficient, reliable, and user-friendly.                 
+            To make the healthcare system more efficient, reliable, and user-friendly.    
+
+Module : Patient Module
+         Doctor Module
+         Lab Module
+         Admin Module             
