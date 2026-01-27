@@ -18,10 +18,10 @@ export default function PatientLogin() {
     setError("");
 
     try {
-      const response = await api.post("/patient/send-otp", { aadhaar });
+      const response = await api.post("/api/aadhaar/send-otp", { aadhaarNumber: aadhaar });
       console.log(response.data);
       // Navigate to OTP verification page
-      navigate("/verify-otp", { state: { aadhaar } });
+      navigate("/patient/verify-otp", { state: { aadhaar } });
     } catch (err) {
       console.error(err);
       setError("Failed to send OTP. Please try again later.");

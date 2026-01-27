@@ -4707,11 +4707,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Local Repo Test\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI.csproj",
+      "projectUniqueName": "E:\\AarogyaCard\\DIGITAL_HEALTH_CARD\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI.csproj",
       "projectName": "HealthCardAPI",
-      "projectPath": "E:\\Local Repo Test\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI.csproj",
+      "projectPath": "E:\\AarogyaCard\\DIGITAL_HEALTH_CARD\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI.csproj",
       "packagesPath": "C:\\Users\\Kedar Mane\\.nuget\\packages\\",
-      "outputPath": "E:\\Local Repo Test\\HealthCardAPI\\HealthCardAPI\\HealthCardAPI\\obj\\",
+      "outputPath": "E:\\AarogyaCard\\DIGITAL_HEALTH_CARD\\HealthCardAPI\\HealthCardAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

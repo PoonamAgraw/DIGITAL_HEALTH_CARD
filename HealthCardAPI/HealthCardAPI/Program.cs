@@ -129,14 +129,15 @@ internal class Program
 
         app.UseSwagger();
         app.UseSwaggerUI();
+        app.UseStaticFiles();
 
-        app.UseCors("AllowReact");   // ✅ MUST be before controllers
+        // ✅ MUST be before controllers
         app.UseCors("AllowFrontend");
         app.UseAuthentication();
         app.UseAuthorization();
 
         app.MapControllers();
-        app.UseStaticFiles();
+       
 
 
         app.Run();
