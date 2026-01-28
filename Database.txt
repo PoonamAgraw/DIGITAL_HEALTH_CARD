@@ -159,3 +159,4 @@ CREATE TABLE Consent (
     FOREIGN KEY (PatientId) REFERENCES Patient(PatientId)
 );
 
+;
